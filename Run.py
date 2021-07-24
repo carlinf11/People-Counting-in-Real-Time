@@ -297,12 +297,12 @@ def run():
 
 
 		# show the output frame
-		#cv2.imshow("Real-Time Monitoring/Analysis Window", frame)
+		"""cv2.imshow("Real-Time Monitoring/Analysis Window", frame)
 		key = cv2.waitKey(1) & 0xFF
 
 		# if the `q` key was pressed, break from the loop
 		if key == ord("q"):
-			break
+			break"""
 
 		# increment the total number of frames processed thus far and
 		# then update the FPS counter
@@ -313,7 +313,7 @@ def run():
 			# Automatic timer to stop the live stream. Set to 8 hours (28800s).
 			t1 = time.time()
 			num_seconds=(t1-t0)
-			if num_seconds > 28800:
+			if num_seconds > 60:
 				break
 
 	# stop the timer and display FPS information
