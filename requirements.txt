@@ -2,7 +2,8 @@ schedule==0.6.0
 numpy==1.19.2
 argparse==1.4.0
 imutils==0.5.3
-dlib==19.19.0
+dlib==19.22.0
 opencv-python==4.5.3.56
 scipy==1.4.1
 streamlit
+pandas
