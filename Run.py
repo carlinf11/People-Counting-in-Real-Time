@@ -335,7 +335,7 @@ def run():
 		vs.release()
 
 	# close any open windows
-	cv2.destroyAllWindows()
+	#cv2.destroyAllWindows()
 
 
 ##learn more about different schedules here: https://pypi.org/project/schedule/
