@@ -313,7 +313,7 @@ def run():
 			# Automatic timer to stop the live stream. Set to 8 hours (28800s).
 			t1 = time.time()
 			num_seconds=(t1-t0)
-			if num_seconds > 60:
+			if num_seconds > 180:
 				break
 
 	# stop the timer and display FPS information
