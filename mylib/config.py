@@ -18,6 +18,6 @@ Log = True
 # Auto run/Schedule the software to run at your desired time
 Scheduler = False
 # Auto stop the software after certain a time/hours
-Timer = False
+Timer = True
 #===============================================================================
 #===============================================================================
