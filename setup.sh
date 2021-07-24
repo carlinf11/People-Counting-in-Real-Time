@@ -1,5 +1,4 @@
-sudo apt-get install pkg-config
-sudo apt-get install libgtk2.0-dev
+
 mkdir -p ~/.streamlit/
 echo "\
 [general]\n\
