@@ -323,24 +323,24 @@ def run():
 
 
 	# # if we are not using a video file, stop the camera video stream
-	# if not args.get("input", False):
-	# 	vs.stop()
-	#
-	# # otherwise, release the video file pointer
-	# else:
-	# 	vs.release()
+	 if not args.get("input", False):
+		vs.stop()
+	
+	# otherwise, release the video file pointer
+	else:
+		vs.release()
 	
 	# issue 15
 	if config.Thread:
 		vs.release()
 
 	# close any open windows
-	#cv2.destroyAllWindows()
+	cv2.destroyAllWindows()
 
 
 ##learn more about different schedules here: https://pypi.org/project/schedule/
 if config.Scheduler:
-	##Runs for every 1 second
+	#Runs for every 1 second
 	#schedule.every(1).seconds.do(run)
 	##Runs at every day (9:00 am). You can change it.
 	schedule.every().day.at("9:00").do(run)
